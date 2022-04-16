@@ -47,7 +47,7 @@ void setup() {
 
 This library is to facilitate your usage of W5100S-EVB-Pico board with the onboard Wiznet W5100S chip, using [**Arduino-mbed RP2040** core](https://github.com/arduino/ArduinoCore-mbed)
 
-In case you are looking for an event driven approach of receiving Ethernet data/status, rathan than the traditional polling method, this library may be one of choices for you.
+In case you are looking for an event driven approach of receiving Ethernet data/status, rather than the traditional polling method, this library may be one of choices for you.
 
 ```
 Events to be dispatched to: void (*EthernetEventCallback)(uint8_t ir, uint8_t ir2, uint8_t slir);
@@ -85,7 +85,8 @@ Events to be dispatched to: void (*SocketEventCallback)(uint8_t sn_ir);
 
 1. [`Arduino IDE 1.8.19+` for Arduino](https://www.arduino.cc/en/Main/Software)
 2. [`Arduino mbed_rp2040 core 2.7.2-`](https://github.com/arduino/ArduinoCore-mbed) for [W5100S-EVB-Pico](https://www.wiznet.hk/en/open-source-hardware/114-w5100s-evb-pico.html)
-3. [Netcat Command in Linux](https://www.linuxfordevices.com/tutorials/netcat-command-in-linux)
+3. [Arduino DebugLog lib](https://www.arduino.cc/reference/en/libraries/debuglog/)
+4. [Netcat Command in Linux](https://www.linuxfordevices.com/tutorials/netcat-command-in-linux)
 
 ---
 
